@@ -69,17 +69,27 @@ Decision Tree Classifer
 Accuracy: 0.828125
 
 Dataset: Huffington Post [1 million], Vectorizer: CountVectorizer()
+
 K Nearest Neighbors Classifier Accuracy: 0.14711497160311174
+
 Multinomial Naive Bayes Classifier Accuracy: 0.45907507278194054
+
 Random Forest Classifier Accuracy: 0.34818403092635897
+
 RNN Classifier Accuracy: 0.38 [10% of data]
+
 Decision Tree Classifier Accuracy: 0.29375 [10% of data]
 
 Dataset: Huffington Post [1 million], Vectorizer: TfidfVectorizer()
+
 K Nearest Neighbors Classifier Accuracy: 0.13556531284302964
+
 Multinomial Naive Bayes Classifier Accuracy: 0.4193910179926502
+
 Random Forest Classifier Accuracy: 0.3486135636901637
+
 RNN Classifier Accuracy: 0.39 [10% of data]
+
 Decision Tree Classifier Accuracy: 0.27375 [10% of data]
 
 
