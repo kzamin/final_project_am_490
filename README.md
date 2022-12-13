@@ -2,11 +2,11 @@
 
 # Abstract - in a paragraph or two, summarize the project
 
-Build a topic classifier for news articles using the BBC News Dataset and the Huffington Post 1 Million News Articles Dataset. Utilizes bag of words and TF-idf featurization techniques and Multinomial Naive Bayes, Decision Tree, RNN, K Neighbors, and Random Forest Classifiers.
+Built a topic classifier for news articles using the BBC News Dataset and the Huffington Post 1 Million News Articles Dataset. Utilizes bag of words and TF-idf featurization techniques and Multinomial Naive Bayes, Decision Tree, RNN, K Neighbors, and Random Forest Classifiers.
 
 # Problem statement - what are you trying to solve/do
 
-The ability to analyze and discover the topic of a news article from the article itself. 
+The ability to analyze and discover the topic of a news article from the article itself or the headline and a short description. 
 
 # Related work - what papers/ideas inspired you, what datasets did you use, etc
 
@@ -27,6 +27,8 @@ https://www.datacamp.com/tutorial/naive-bayes-scikit-learn
 I originally attempted solving this with Multinomial Naive Bayes classifier and a Bag of Words vectorization scheme. Then, I proceeded to try out other classifiers used for these types of problems alongside the Tf-Idf vectorization scheme in order to see if I could match or even beat my original performance. 
 
 I split up the original datasets by designating 20% of the data as test data and the rest as training data. I also made sure to shuffle the traininig data for every run.
+
+For the million news articles dataset, the articles were not included in the dataset so I merged the headline + a short description of the article as the input data to see how the classifers fared on limited data. 
 
 # Experiments/evaluation - how are you evaluating your results
 I calculated the accuracy percentage by using sklearn metrics and comparing the classifer prediction to the original labels. 
