@@ -102,6 +102,7 @@ For the BBC dataset, Multinomial Naive Bayes (MNB) and RNNs out performed all ot
 For the Huff Post dataset, MNB and RNN continued to perform well but Random Forest also did quite well. K Nearest Neighbor struggled the most. 
 
 # Examples - images/text/live demo, anything to show off your work (note, demos get some extra credit in the rubric)
+https://drive.google.com/file/d/1oR7YSMmqZ4AJHNQ4qMTzPkKUt2cSWHFJ/view?usp=sharing
 
 # Video - a 2-3 minute long video where you explain your project and the above information
 https://drive.google.com/file/d/1EDy9JILfnYp1RNIZTWoXjee6kticBZJH/view?usp=sharing
