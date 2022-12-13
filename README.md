@@ -30,6 +30,8 @@ I split up the original datasets by designating 20% of the data as test data and
 
 For the million news articles dataset, the articles were not included in the dataset so I merged the headline + a short description of the article as the input data to see how the classifers fared on limited data. 
 
+I wasn't able to train the RNN/Decision Trees on the full huffington post even after letting the script run for 4hrs+ so I would need to dedicate more resources to actually run it in full capacity. Thus, I only used 10% of the data for the RNN/DT run on huff post data.
+
 # Experiments/evaluation - how are you evaluating your results
 I calculated the accuracy percentage by using sklearn metrics and comparing the classifer prediction to the original labels. 
 
@@ -97,7 +99,11 @@ Decision Tree Classifier Accuracy: 0.27375 [10% of data]
 
 For the BBC dataset, Multinomial Naive Bayes (MNB) and RNNs out performed all other schemes in the BoW model. However, MNB struggled in the Tf-idf scheme while K-nearest neighbors did significantly better and RNN came out in top. Random Forest struggled in all and was only slightly better than random guesses. 
 
+For the Huff Post dataset, MNB and RNN continued to perform well but Random Forest also did quite well. K Nearest Neighbor struggled the most. 
+
 # Examples - images/text/live demo, anything to show off your work (note, demos get some extra credit in the rubric)
 
 # Video - a 2-3 minute long video where you explain your project and the above information
+https://drive.google.com/file/d/1EDy9JILfnYp1RNIZTWoXjee6kticBZJH/view?usp=sharing
 
+* NOTE: Video accidentally has the wrong results for the Huff Post as I accidentally copied the results from the tfid to the bag of words. See this git post for accurate data
