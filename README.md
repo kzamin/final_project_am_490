@@ -33,7 +33,7 @@ For the million news articles dataset, the articles were not included in the dat
 # Experiments/evaluation - how are you evaluating your results
 I calculated the accuracy percentage by using sklearn metrics and comparing the classifer prediction to the original labels. 
 
-Dataset: BBC News, Vectorizer: Bag of Words
+# Dataset: BBC News, Vectorizer: Bag of Words
 
 K Nearest Neighbors Classifier
 Accuracy: 0.7544642857142857
@@ -51,7 +51,7 @@ Decision Tree Classifer
 Accuracy: 0.8125
 
 
-Dataset: BBC News, Vectorizer: Tf-idf
+# Dataset: BBC News, Vectorizer: Tf-idf
 
 K Nearest Neighbors Classifier
 Accuracy: 0.9441964285714286
@@ -68,7 +68,7 @@ Accuracy: 0.984375
 Decision Tree Classifer
 Accuracy: 0.828125
 
-Dataset: Huffington Post [1 million], Vectorizer: CountVectorizer()
+# Dataset: Huffington Post [1 million], Vectorizer: CountVectorizer()
 
 K Nearest Neighbors Classifier Accuracy: 0.14711497160311174
 
@@ -80,7 +80,7 @@ RNN Classifier Accuracy: 0.38 [10% of data]
 
 Decision Tree Classifier Accuracy: 0.29375 [10% of data]
 
-Dataset: Huffington Post [1 million], Vectorizer: TfidfVectorizer()
+# Dataset: Huffington Post [1 million], Vectorizer: TfidfVectorizer()
 
 K Nearest Neighbors Classifier Accuracy: 0.13556531284302964
 
