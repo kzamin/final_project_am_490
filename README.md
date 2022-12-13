@@ -68,6 +68,21 @@ Accuracy: 0.984375
 Decision Tree Classifer
 Accuracy: 0.828125
 
+Dataset: Huffington Post [1 million], Vectorizer: TfidfVectorizer()
+K Nearest Neighbors Classifier Accuracy: 0.13556531284302964
+Multinomial Naive Bayes Classifier Accuracy: 0.4193910179926502
+Random Forest Classifier Accuracy: 0.3486135636901637
+RNN Classifier Accuracy: 0.38 [10% of data]
+Decision Tree Classifier Accuracy: 0.29375 [10% of data]
+
+Dataset: Huffington Post [1 million], Vectorizer: TfidfVectorizer()
+K Nearest Neighbors Classifier Accuracy: 0.13556531284302964
+Multinomial Naive Bayes Classifier Accuracy: 0.4193910179926502
+Random Forest Classifier Accuracy: 0.3486135636901637
+RNN Classifier Accuracy: 0.39 [10% of data]
+Decision Tree Classifier Accuracy: 0.27375 [10% of data]
+
+
 # Results - How well did you do
 
 For the BBC dataset, Multinomial Naive Bayes (MNB) and RNNs out performed all other schemes in the BoW model. However, MNB struggled in the Tf-idf scheme while K-nearest neighbors did significantly better and RNN came out in top. Random Forest struggled in all and was only slightly better than random guesses. 
